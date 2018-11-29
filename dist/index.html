@@ -1,9 +1,21 @@
 <html>
     <head>
 
+            <base href="/">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Source+Code+Pro|Ubuntu" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Serif" rel="stylesheet">
+        <link rel='stylesheet' href='src/styles.css'>
+        <script type="text/javascript">
+            function FocusOnInput()
+            {
+                 document.getElementById("focusID").focus();
+            }
+            </script>
     </head>
-    <body>
+    <body onLoad="FocusOnInput();">
         <div id='hello'></div>
-        <script src = './src/index.js'></script>
+        <script src = './index.js'></script>
     <script type="text/javascript" src="main.js"></script></body>
     </html>
