@@ -14,7 +14,7 @@ const Projects = (props) => {
 
                 <div className="card-body text-center">
                     <h4 className="card-title">The Focus App</h4>
-                    <p className="card-text">A full-stack Jasvascript app built with React that keeps users on track with their goals with perosnalized text-messages.</p>
+                    <p className="card-text">A full-stack Jasvascript app built with React that keeps users on track for their goals with personalized text-messages.</p>
                     <a target="_blank" rel="noopener noreferrer" href="https://thefocusapp.herokuapp.com" className="card-link">Learn More</a>
                 </div>
 
