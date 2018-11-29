@@ -20,7 +20,8 @@ const About = (props) => {
         product and becoming involved in venture capital to support entrepreneurship and innovative technology.`}
         <br></br><br></br>
         {`In my free time, I read books on psychology, economics, philosophy, and business, and try to host as many discussions
-        about solving the world's problems as I can. I am outspoken about the limitations of our current political, educational, and healthcare systems, and hope to disrupt them in the future.`}
+        about solving the world's problems as I can. I am outspoken about the limitations of our current political, educational, 
+        and healthcare systems, and hope to disrupt them in the future.`}
         </p>
     </div>)
 }
