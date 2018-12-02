@@ -1,5 +1,6 @@
 const React = require('react')
 const TokenForm = require('../tokenform')
+const System1 = require('../coverletters/system1')
 
 
 const Redeem = (props) => {
@@ -15,6 +16,8 @@ const Redeem = (props) => {
         return(<div>Access Granted, You've reached the Easter Egg.</div>)
     } else if(props.token =='Tina') {
         return(<div>Hey Tina! I love you :)</div>)
+    } else if(props.token == 'system1') {
+        return(<System1/>)
     } else {
         return (<div>Invalid Token {props.token}</div>)
     }
